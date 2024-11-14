@@ -32,7 +32,7 @@ export default async function Home() {
           <p>{session?.user.name}</p>
         </div>
       ) : (
-        <Card className="mx-10 sm:mx-auto w-fit my-60">
+        <Card className="mx-10 sm:mx-auto w-fit my-60 py-3">
           <CardHeader className="text-center mx-4">
             <CardTitle>Registrati ora!</CardTitle>
             <CardDescription>Scegli il servizio più comodo e entra nella community di StartIt!</CardDescription>
